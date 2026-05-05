@@ -19,6 +19,7 @@ Students should use this repository to:
 - understand the fake news classification problem
 - access the fake/real news dataset instructions
 - review and run the project code
+- read supporting articles about fake news and misinformation
 - reproduce exploratory data analysis outputs
 - convert article text into numerical features using TF-IDF
 - train a logistic regression classifier
@@ -27,21 +28,21 @@ Students should use this repository to:
 
 ## Repository Contents
 
-.
-├── Supplemental_Materials/
-│   ├── Data/
-│   ├── Scripts/
-│   ├── Supporting_Articles/
-│   └── References.pdf
-├── Hook.pdf
-├── Rubric.pdf
-└── README.md
+    .
+    ├── Supplemental_Materials/
+    │   ├── Data/
+    │   ├── Scripts/
+    │   ├── Supporting_Articles/
+    │   └── References.pdf
+    ├── Hook.pdf
+    ├── Rubric.pdf
+    └── README.md
 
 ## File and Folder Descriptions
 
 ### `Supplemental_Materials/`
 
-Contains the materials needed to reproduce and understand the case study, including data access instructions, project scripts, and supporting articles.
+Contains the materials needed to reproduce and understand the case study, including data access instructions, project scripts, supporting articles, and references.
 
 ### `Supplemental_Materials/Data/`
 
@@ -49,11 +50,15 @@ Contains dataset instructions and/or cloud access information for the fake/real 
 
 ### `Supplemental_Materials/Scripts/`
 
-Contains the Python scripts or notebooks used to reproduce the workflow, including data preparation, exploratory analysis, TF-IDF feature extraction, logistic regression modeling, and evaluation.
+Contains the Python scripts used to reproduce the workflow, including data preparation, exploratory analysis, TF-IDF feature extraction, logistic regression modeling, and evaluation.
 
 ### `Supplemental_Materials/Supporting_Articles/`
 
 Contains background readings and explainers that help students understand fake news, misinformation, fact-checking, and online information credibility before beginning the technical workflow.
+
+### `Supplemental_Materials/References.pdf`
+
+Lists the starter materials, dataset sources, technical references, and original project context references used for the case study.
 
 ### `Hook.pdf`
 
@@ -87,8 +92,9 @@ This case study uses the following methods:
 4. Download the fake/real news dataset if needed and place it in the correct working location described in the dataset instructions.
 5. Run or review the code in `Supplemental_Materials/Scripts/`.
 6. Read the background materials in `Supplemental_Materials/Supporting_Articles/` to understand the real-world context of fake news and misinformation.
-7. Reproduce the major workflow steps: data preparation, exploratory data analysis, TF-IDF feature extraction, logistic regression modeling, and evaluation.
-8. Create your own final report, notebook, or slide deck explaining the reproduced project.
+7. Review `Supplemental_Materials/References.pdf` for starter materials, dataset sources, technical references, and original project context references.
+8. Reproduce the major workflow steps: data preparation, exploratory data analysis, TF-IDF feature extraction, logistic regression modeling, and evaluation.
+9. Create your own final report, notebook, or slide deck explaining the reproduced project.
 
 ## Expected Student Deliverable
 
