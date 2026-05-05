@@ -17,7 +17,8 @@ This repository is meant to serve as a complete case study package. It includes 
 Students should use this repository to:
 
 - understand the fake news classification problem
-- load and prepare the fake/real news dataset
+- access the fake/real news dataset instructions
+- review and run the project code
 - reproduce exploratory data analysis outputs
 - convert article text into numerical features using TF-IDF
 - train a logistic regression classifier
@@ -27,43 +28,36 @@ Students should use this repository to:
 ## Repository Contents
 
     .
-    ├── Data/
-    ├── Scripts/
     ├── Supplemental_Materials/
     ├── Hook.pdf
     ├── Rubric.pdf
-    ├── README.md
-    └── LICENSE
+    └── README.md
 
 ## File and Folder Descriptions
 
-### `Data/`
-
-Contains the fake/real news dataset or instructions for accessing the dataset used in the case study.
-
-### `Scripts/`
-
-Contains the Python scripts or notebooks used to reproduce the workflow, including data preparation, exploratory analysis, TF-IDF feature extraction, logistic regression modeling, and evaluation.
-
 ### `Supplemental_Materials/`
 
-Contains reference links, background readings, documentation, and other materials that help students understand the case study.
+Contains the materials needed to reproduce and understand the case study. This folder may include dataset instructions, project scripts or notebooks, reference links, background articles, technical documentation, and other supporting resources.
+
+Suggested materials in this folder include:
+
+- `Dataset_Instructions.md`
+- project scripts or notebooks
+- `News_Literacy_Explainer.md`
+- `Text_Classification_Technical_Resource.md`
+- `References.md`
 
 ### `Hook.pdf`
 
-Introduces the case study scenario, places the student in the role of a junior data analyst, and explains the high-level mission.
+Introduces the case study scenario, places the student in the role of a junior data analyst, explains the motivation for fake news detection, and gives the student a high-level mission.
 
 ### `Rubric.pdf`
 
-Explains the purpose, task, deliverables, and criteria for completing the case study.
+Explains the purpose, task, deliverables, and criteria for completing the case study. This document should be used to guide the student’s final report, notebook, or slide deck.
 
 ### `README.md`
 
 Provides an overview of the repository and instructions for using the case study materials.
-
-### `LICENSE`
-
-Provides the license information for this repository, if included.
 
 ## Methods Used
 
@@ -81,11 +75,12 @@ This case study uses the following methods:
 
 1. Read `Hook.pdf` to understand the case study scenario and your role.
 2. Review `Rubric.pdf` to understand the task, criteria, and expected final product.
-3. Open the dataset or dataset instructions in the `Data/` folder.
-4. Run or review the code in the `Scripts/` folder.
-5. Review the materials in the `Supplemental_Materials/` folder for background readings, references, and method explanations.
-6. Use the supplemental references to better understand text classification, TF-IDF, logistic regression, and model evaluation.
-7. Create your own final report, notebook, or slide deck explaining the reproduced project.
+3. Open `Supplemental_Materials/` to access the dataset instructions, scripts, references, and background materials.
+4. Follow the dataset instructions to download or locate the fake/real news dataset.
+5. Run or review the project scripts or notebooks provided in `Supplemental_Materials/`.
+6. Reproduce the major workflow steps: data preparation, EDA, TF-IDF feature extraction, logistic regression modeling, and evaluation.
+7. Use the supplemental readings and documentation to better understand fake news detection, text classification, TF-IDF, logistic regression, and model interpretation.
+8. Create your own final report, notebook, or slide deck explaining the reproduced project.
 
 ## Expected Student Deliverable
 
@@ -117,7 +112,7 @@ Important limitations to consider include:
 
 ## Author
 
-Created by Zane Abbud for DS 4002: Data Science Project Course.
+Created by Adrian Velez for DS 4002: Data Science Project Course.
 
 ## Acknowledgements
 
