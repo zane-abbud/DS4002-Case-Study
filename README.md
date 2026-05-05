@@ -27,14 +27,15 @@ Students should use this repository to:
 
 ## Repository Contents
 
-    .
-    ├── Supplemental_Materials/
-    │   ├── Data/
-    │   ├── Scripts/
-    │   └── Supporting_Articles/
-    ├── Hook.pdf
-    ├── Rubric.pdf
-    └── README.md
+.
+├── Supplemental_Materials/
+│   ├── Data/
+│   ├── Scripts/
+│   ├── Supporting_Articles/
+│   └── References.pdf
+├── Hook.pdf
+├── Rubric.pdf
+└── README.md
 
 ## File and Folder Descriptions
 
