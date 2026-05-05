@@ -26,38 +26,48 @@ Students should use this repository to:
 
 ## Repository Contents
 
-├── Hook_Document.pdf
-├── Rubric.pdf
-├── References.pdf
-├── DATA/
-├── SCRIPTS/
-├── OUTPUT/
-└── MATERIALS/
+    .
+    ├── Data/
+    ├── Scripts/
+    ├── Supplemental_Materials/
+    ├── Hook.pdf
+    ├── Rubric.pdf
+    ├── README.md
+    └── LICENSE
 
 ## File and Folder Descriptions
 
-### `Hook_Document.pdf`
+### `Data/`
+
+Contains the fake/real news dataset or instructions for accessing the dataset used in the case study.
+
+### `Scripts/`
+
+Contains the Python scripts or notebooks used to reproduce the workflow, including data preparation, exploratory analysis, TF-IDF feature extraction, logistic regression modeling, and evaluation.
+
+### `Supplemental_Materials/`
+
+Contains reference links, background readings, documentation, and other materials that help students understand the case study.
+
+### `Hook.pdf`
+
 Introduces the case study scenario, places the student in the role of a junior data analyst, and explains the high-level mission.
 
 ### `Rubric.pdf`
+
 Explains the purpose, task, deliverables, and criteria for completing the case study.
 
-### `References.pdf`
-Lists background sources and documentation related to fake news detection, TF-IDF, logistic regression, and text classification.
+### `README.md`
 
-### `DATA/`
-Contains the dataset files or instructions for accessing the fake/real news dataset.
+Provides an overview of the repository and instructions for using the case study materials.
 
-### `SCRIPTS/`
-Contains the Python scripts or notebooks used to reproduce the workflow.
+### `LICENSE`
 
-### `OUTPUT/`
-Contains project outputs such as EDA visuals, model results, classification reports, and confusion matrices.
-
-### `MATERIALS/`
-Contains supporting materials, reference links, and background readings.
+Provides the license information for this repository, if included.
 
 ## Methods Used
+
+This case study uses the following methods:
 
 - Exploratory Data Analysis
 - Text preprocessing
@@ -69,12 +79,12 @@ Contains supporting materials, reference links, and background readings.
 
 ## How to Use This Repository
 
-1. Read `Hook_Document.pdf` to understand the case study scenario.
-2. Review `Rubric.pdf` to understand the expected final deliverable.
-3. Open the dataset or dataset instructions in the `DATA/` folder.
-4. Run or review the code in the `SCRIPTS/` folder.
-5. Compare your results to the materials in the `OUTPUT/` folder.
-6. Use `References.pdf` and the `MATERIALS/` folder to better understand the methods.
+1. Read `Hook.pdf` to understand the case study scenario and your role.
+2. Review `Rubric.pdf` to understand the task, criteria, and expected final product.
+3. Open the dataset or dataset instructions in the `Data/` folder.
+4. Run or review the code in the `Scripts/` folder.
+5. Review the materials in the `Supplemental_Materials/` folder for background readings, references, and method explanations.
+6. Use the supplemental references to better understand text classification, TF-IDF, logistic regression, and model evaluation.
 7. Create your own final report, notebook, or slide deck explaining the reproduced project.
 
 ## Expected Student Deliverable
@@ -96,8 +106,19 @@ The final product should include:
 
 This project should be interpreted carefully. A fake news classifier can learn patterns in article text, but it does not truly understand truth, context, or credibility. High accuracy does not automatically mean the model is reliable in every real-world setting.
 
-Important limitations to consider include dataset bias, overfitting, changing language patterns over time, false positives and false negatives, and limited generalizability to new sources or future news articles.
+Important limitations to consider include:
+
+- dataset bias
+- overfitting
+- changing language patterns over time
+- dependence on word patterns rather than actual truth
+- false positives and false negatives
+- limited generalizability to new sources or future news articles
 
 ## Author
 
-Created by Adrian Velez for DS 4002: Data Science Project Course.
+Created by Zane Abbud for DS 4002: Data Science Project Course.
+
+## Acknowledgements
+
+This case study was created as part of DS 4002 and is based on a previous course project focused on fake news text classification.
