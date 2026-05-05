@@ -29,6 +29,9 @@ Students should use this repository to:
 
     .
     ├── Supplemental_Materials/
+    │   ├── Data/
+    │   ├── Scripts/
+    │   └── Supporting_Articles/
     ├── Hook.pdf
     ├── Rubric.pdf
     └── README.md
@@ -37,15 +40,19 @@ Students should use this repository to:
 
 ### `Supplemental_Materials/`
 
-Contains the materials needed to reproduce and understand the case study. This folder may include dataset instructions, project scripts or notebooks, reference links, background articles, technical documentation, and other supporting resources.
+Contains the materials needed to reproduce and understand the case study, including data access instructions, project scripts, and supporting articles.
 
-Suggested materials in this folder include:
+### `Supplemental_Materials/Data/`
 
-- `Dataset_Instructions.md`
-- project scripts or notebooks
-- `News_Literacy_Explainer.md`
-- `Text_Classification_Technical_Resource.md`
-- `References.md`
+Contains dataset instructions and/or cloud access information for the fake/real news dataset. The dataset may be linked through a cloud folder if the files are too large to store directly in GitHub.
+
+### `Supplemental_Materials/Scripts/`
+
+Contains the Python scripts or notebooks used to reproduce the workflow, including data preparation, exploratory analysis, TF-IDF feature extraction, logistic regression modeling, and evaluation.
+
+### `Supplemental_Materials/Supporting_Articles/`
+
+Contains background readings and explainers that help students understand fake news, misinformation, fact-checking, and online information credibility before beginning the technical workflow.
 
 ### `Hook.pdf`
 
@@ -75,11 +82,11 @@ This case study uses the following methods:
 
 1. Read `Hook.pdf` to understand the case study scenario and your role.
 2. Review `Rubric.pdf` to understand the task, criteria, and expected final product.
-3. Open `Supplemental_Materials/` to access the dataset instructions, scripts, references, and background materials.
-4. Follow the dataset instructions to download or locate the fake/real news dataset.
-5. Run or review the project scripts or notebooks provided in `Supplemental_Materials/`.
-6. Reproduce the major workflow steps: data preparation, EDA, TF-IDF feature extraction, logistic regression modeling, and evaluation.
-7. Use the supplemental readings and documentation to better understand fake news detection, text classification, TF-IDF, logistic regression, and model interpretation.
+3. Open `Supplemental_Materials/Data/` to access the dataset instructions or cloud dataset link.
+4. Download the fake/real news dataset if needed and place it in the correct working location described in the dataset instructions.
+5. Run or review the code in `Supplemental_Materials/Scripts/`.
+6. Read the background materials in `Supplemental_Materials/Supporting_Articles/` to understand the real-world context of fake news and misinformation.
+7. Reproduce the major workflow steps: data preparation, exploratory data analysis, TF-IDF feature extraction, logistic regression modeling, and evaluation.
 8. Create your own final report, notebook, or slide deck explaining the reproduced project.
 
 ## Expected Student Deliverable
@@ -112,7 +119,7 @@ Important limitations to consider include:
 
 ## Author
 
-Created by Adrian Velez for DS 4002: Data Science Project Course.
+Created by Zane Abbud for DS 4002: Data Science Project Course.
 
 ## Acknowledgements
 
